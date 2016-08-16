@@ -24,10 +24,10 @@
 		</ul>
 		<p>My goal is to be able to layout a page with a very nice header that it's very user friendly. The navigation would be linked to the different parts of the site so I'll be able to navigate through it easily to different areas and search for whatever I want at that moment.</p>
 		<h2>Mobile wireframe</h2>
-		<img src="../../img/mobile.png" alt="mobile.png" />
+		<img src="../images/mobile.png" alt="mobile.png" />
 		<h2>Desktop wireframe</h2>
-		<img src="../../img/desktop.png" alt="desktop.png" />
+		<img src="../images/desktop.png" alt="desktop.png" />
 		<h2>Site Mapping</h2>
-		<img src="../../img/mapping.png" alt="mapping.png" />
+		<img src="../images/mapping.png" alt="mapping.png" />
 	</body>
 </html>

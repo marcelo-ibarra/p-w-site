@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
-		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<link href="../css/style.css" rel="stylesheet" type="text/css"/>
 		<title>Marcelo's Personal Website</title>
 	</head>
 	<body>
@@ -24,7 +24,7 @@
 			<p><strong>Frustrations and Needs: </strong>Abel needs to hire someone knowledgeable as soon as possible with a negotiable salary and great benefits included. Abel considers a great fit for this position; someone who has great personality and can be a great team player. He expects to have this position filled in the next week.</p>
 			<p><strong>Goals: </strong>Abel plans on not spending too much time reviewing every resume. He will concentrate on making the right decision as soon as possible by the end of this week</p>
 			<h3>Use Case</h3>
-			<p>Recently; I've submitted a cover letter and a resume to Abel P. Garza for this available Entry-Level Web Developer position. He told me that he was going to consider my resume in his next batch to review in the next couple of days and was going to have an answer for me by Thursday afternoon via e-mail<br> He also; stated that he was even going to make time to review my webpage tomorrow after I handed him one of my personalized business cards to review more information about me <br> Aside from leting me know that he had eleven more candidates to consider; He also advised me that he was going to make a final decision by Friday after his meeting with the hiring committee.</p>
+			<p>Recently; I've submitted a cover letter and a resume to Abel P. Garza for this available Entry-Level Web Developer position currently available in Albuquerque, New Mexico. He told me that he was going to consider my resume in his next batch to review in the next couple of days and was going to have an answer for me by Thursday afternoon via e-mail<br> He also; stated that he was even going to make time to review my webpage tomorrow after I handed him one of my personalized business cards to review more information about me <br> Aside from leting me know that he had eleven more candidates to consider. Aside from being busy all the time with meetings and all; he also advised me that he was going to make a final decision by Friday after his meeting with the hiring committee.</p>
 		</header>
 		</body>
 		</html>
