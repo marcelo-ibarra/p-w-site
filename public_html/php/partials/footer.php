@@ -1,7 +1,9 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: STEMulus
- * Date: 8/18/2016
- * Time: 9:33 AM
- */
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12">
+				&copy;&nbsp;2016 MI mibarra
+			</div>
+		</div>
+	</div>
+</footer>
