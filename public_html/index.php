@@ -146,6 +146,7 @@
 					</div>
 				</div>
 		<!--begin contact form-->
+		<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
 		<div class="container">
 			<h2>Contact Me</h2>
 			<div class="row">
