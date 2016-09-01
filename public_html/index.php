@@ -77,9 +77,10 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right">
+										<li><a href="#">Home</a></li>
 										<li><a href="#">About</a></li>
 										<li><a href="#">Contact</a></li>
-										<li><a href="#">Home</a></li>
+										<li><a href="#">Git Hub</a></li>
 										<li><a href="#">Portfolio</a> </li>
 										<!--<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Moar Links <span class="caret"></span></a>
@@ -222,6 +223,7 @@
 					<div class="copyright text-center">
 						<a href="https://www.linkedin.com/in/marcelo-ibarra"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
 						<a href="https://twitter.com/@ibarrahuex"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+							<a href="https://github.com/marcelo-ibarra"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
 						<br>
 						&copy;  mi-Mibarra 2016
 					</div>
