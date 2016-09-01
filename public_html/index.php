@@ -104,7 +104,7 @@
 					<div class="col-xs-8">
 						<div class="jumbotron text-center">
 							<h1><i><strong>Marcelo Ibarra</h1></i></strong>
-							<p>Junior Web Developer</p>
+							<h3><strong><i>Junior Web Developer</strong></i></h3>
 					</div>
 				</div>
 				<!--<img class="home" src="documentation/images/home-page.jpeg" alt="Home Page">-->
@@ -121,17 +121,19 @@
 			<h2 class="heading">About Me</h2>
 			<div class="row">
 				<div class="col-md-12">
-					<h4 class="body"><i>
-					<p>A family man who's creative and resourceful in applying a systematic problem-solving approach to Cash 	Management, Payroll, Cost Accounting, Budgeting, Reconciliation and Auditing.<br>
+					<i>
+							<div class="well">
+								<p>A family man who's creative and resourceful in applying a systematic problem-solving approach to Cash 	Management, Payroll, Cost Accounting, Budgeting, Reconciliation and Auditing.<br>
 						Hands-on leader with the ability to motivate staff to take pride in their work and to meet 	quality standards.<br>
 						Excellent problem solver -- able to handle pressure well. Communicate regularly with staff and management.
 						Hard worker individual with strong work ethic and commitment to customer service and completely
 						bilingual; fluent in oral and written communication in English & Spanish.</p>
 					<p>I really like spending quality time with family and enjoy nature. I'm a dedicated/hardworking future web develorer who likes challenge and enjoys learning new things. At the same time; I'd
 						like to get acquainted to potential employers and colleagues.</p>
-					<p>It is always exciting for me to be able to always keep learning and being able to help others. That is something that I always enjoy doing.</p></h4></i>
+					<p>It is always exciting for me to be able to always keep learning and being able to help others. That is something that I always enjoy doing.</p></i>
 				</div>
-				<div class="col-md-8">
+				</div>
+			<div class="col-md-6">
 				</div>
 			</div>
 		</div>
@@ -146,13 +148,18 @@
 					</div>
 				</div>
 		<!--begin contact form-->
+
 		<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
+
+
+
 		<div class="container">
 			<h2>Contact Me</h2>
 			<div class="row">
-				<div class="col-md-3"></div>
+				<div class="col-md-3">
+				</div>
 				<!--Begin Contact Form-->
-				<div class="col-md-6">
+				<div class="col-md-5">
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
