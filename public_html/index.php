@@ -63,8 +63,6 @@
 						<div class="col-md-12">
 
 							<!-- begin navbar -->
-							<nav class="navbar navbar-default navbar-fixtop">
-								<!-- Brand and toggle get grouped for better mobile display -->
 								<div class="navbar-header">
 									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 										<span class="sr-only">Toggle navigation</span>
@@ -77,7 +75,7 @@
 								<!-- Collect the nav links, forms, and other content for toggling -->
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right">
-										<li><a href="#">Home</a></li>
+										<li><a href="#top"><i class="fa fa-home"></i></a></li>
 										<li><a href="#">About</a></li>
 										<li><a href="#">Contact</a></li>
 										<li><a href="#">Git Hub</a></li>
@@ -98,12 +96,14 @@
 						</div>
 					</div> <!-- / .container-->
 			</header>
-
 			<!-- begin main content -->
+			<!-- ========================== -->
+			<!--  Section One               -->
+			<!-- ========================== -->
 			<main>
 				<div class="row">
 					<div class="col-xs-8">
-						<div class="jumbotron text-center">
+						<div class="jumbotron text-right">
 							<h1><i><strong>Marcelo Ibarra</h1></i></strong>
 							<h3><strong><i>Junior Web Developer</strong></i></h3>
 					</div>
@@ -115,8 +115,10 @@
 													<img src="https://hd.unsplash.com/photo-1441109296207-fd911f7cd5e5" class="img-responsive">
 												</div>
 											</div>-->
-
-		</div>
+					<!-- ========================== -->
+					<!--  Section Two               -->
+					<!-- ========================== -->
+				</div>
 		<!--begin about me-->
 		<div class= "container">
 			<h2 class="heading">About Me</h2>
@@ -138,28 +140,24 @@
 				</div>
 			</div>
 		</div>
+		<!-- ========================== -->
+		<!--  Section Three             -->
+		<!-- ========================== -->
 		<!--begin portfolio-->
 		<div class="container">
 			<h2>Portfolio</h2>
 			</div class="row">
 				<div class="col-md-3">
-						<a href="//github.com/marcelo-ibarra/p-w-site" target="_blank"
-							class="btn btn-default pull-right"
-							role="button"><i class="fa fa-lg fa-github"></i></a>
 					</div>
 				</div>
 		<!--begin contact form-->
-
-		<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
-
-
-
 		<div class="container">
 			<h2>Contact Me</h2>
 			<div class="row">
 				<div class="col-md-3">
 				</div>
 				<!--Begin Contact Form-->
+				<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
 				<div class="col-md-5">
 					<form id="contact-form" action="php/mailer.php" method="post">
 						<div class="form-group">
@@ -198,7 +196,6 @@
 								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 							</div>
 						</div>
-
 						<!-- Google reCAPTCHA -->
 						<script src='https://www.google.com/recaptcha'/api.js></script>
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>

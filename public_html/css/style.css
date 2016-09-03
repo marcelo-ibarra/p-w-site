@@ -1,13 +1,6 @@
 .picture-image {
 	width: 15%;
-	height: auto;
-
-	border-radius: 70px;
-}
-
-.unique-image {
-	width: 100%;
-	height: auto;
+	border-radius: 60px;
 }
 
 
@@ -26,22 +19,6 @@ body {
 	background: transparent;
 }
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:active,
-button,
-button:link,
-button:visited,
-button:hover,
-button:active {
-	-webkit-transition: all 250ms ease-in-out;
-	-moz-transition: all 250ms ease-in-out;
-	-ms-transition: all 250ms ease-in-out;
-	-o-transition: all 250ms ease-in-out;
-	transition: all 250ms ease-in-out;
-}
 
 h1, .h1 {
 	font-family: 'Abril Fatface', "Times New Roman", Times, Serif;
@@ -61,48 +38,22 @@ h2, .h2 {
 *******************************************/
 header {
 	background-color: transparent;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	border-bottom: 1px solid rgba(255,255,255,0.15);
+	padding-top: 3rem;
+	padding-bottom: .75rem;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
 }
 
-.navbar {
-	margin-bottom: 0;
-}
-
-.navbar-brand {
-	font-family: 'Abril Fatface', "Times New Roman", Times, Serif;
-	font-size: 2.6rem;
-	letter-spacing: 1px;
-}
-
-.navbar-inverse {
-	background: none;
-	border: none;
-	box-shadow: none;
-}
-
-.navbar-inverse .navbar-nav>li>a,
-.navbar-inverse .navbar-brand {
-	color: #152cff;
-}
-
-.navbar-inverse .navbar-nav>li>a:hover,
-.navbar-inverse .navbar-brand:hover {
-	color: gold;
-}
-
-.navbar-inverse .navbar-collapse {
-	border-color: transparent;
-	box-shadow: none;
-	-webkit-box-shadow: none;
+a {
+	color: #5dfcff;
+	text-decoration: none;
+	font-size: 2rem;
 }
 
 /******************************************
 * Content Styles
-*******************************************/
+******************************************/
 main {
-	padding: 5rem 0;
+	padding: 6rem 0;
 }
 
 .well {
@@ -118,10 +69,14 @@ border: solid #0af7f
 *******************************************/
 footer {
 	color: #ddfffa;
-	padding: 1rem 0;
+	padding: .75rem 0;
 	background: black;
 }
 
-.well h2 {
-	margin-top: 12px;
+.sfooter-content {
+	background: rgba(0,0,0,0.3);
+	padding-bottom: 8rem;
 }
+
+
+
