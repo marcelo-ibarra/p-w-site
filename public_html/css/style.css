@@ -59,6 +59,7 @@ main {
 .well {
 	background: rgba(0, 0, 0, 0.23);
 	color: white;
+	border: none;
 	/*
 border: solid #0af7f
 	*/

@@ -1,43 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="marcelo-ibarra/p-w-site">
+<!--suppress ALL -->
+<html lang="en">
 	<head>
-		<!-- The 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta charset="utf-8"/>
-		<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge"/>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-		<!-- set base for relative links - to enable pretty URLs -->
-		<base href="<?php echo dirname($_SERVER["PHP_SELF"]) . "/";?>">
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- FontAwesome -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+		<!-- ADD YOUR CUSTOM CSS HERE -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
-		<!-- Our Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script type="text/javascript" src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 
-		<!--Angular JS Libraries-->
-		<?php $ANGULAR_VERSION = "1.5.8";?>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular.min.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-messages.min.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-route.js"></script>
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-animate.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
-		<!-- Load OUR Angular files -->
-		<script src="angular/marcelo-ibarra/p-w-site.js"></script>
-		<script src="angular/route-config.js"></script>
-		<script src="angular/directives/bootstrap-breakpoint.js"></script>
-		<script src="angular/controllers/about-controller.js"></script>
-		<script src="angular/controllers/contact-controller.js"></script>
-		<script src="angular/controllers/home-controller.js"></script>
-		<script src="angular/controllers/nav-controller.js"></script>
-		<script src="angular/controllers/portfolio-controller.js"></script>
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"></script>
 
-		<title>marcelo-ibarra/p-w-site</title>
+		<!-- Your JavaScript Form Validator -->
+		<script src="js/form-validate.js"></script>
+
+		<!-- Google reCAPTCHA -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--JS FILES HERE -->
+		<script src="js/custom.js" type="text/javascript"></script>
+		<!--ADD FONT AWESOME-->
+		<script src="https://use.fontawesome.com/ccafd2629e.js"></script>
 	</head>
