@@ -93,6 +93,10 @@
 								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 							</div>
 						</div>
+
+
+<!-- reCAPTCHA for bootcapm-coders-->
+<div class="g-recaptcha" data-sitekey="6LerrykTAAAAAPw2bx7gWd-EnoLyDJb5LfdqOwzB"></div>
 						<!-- Google reCAPTCHA -->
 						<script src='https://www.google.com/recaptcha'/api.js></script>
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
@@ -118,4 +122,3 @@
 							<a href="https://github.com/marcelo-ibarra"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
 							<p>&copy;  mi-Mibarra 2016</p>
 							</footer>
-							?>
