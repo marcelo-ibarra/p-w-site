@@ -56,43 +56,48 @@
 				<div class="col-md-3">
 				</div>
 				<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
+
 				<!--Begin Contact Form-->
 				<div class="col-md-5"</div>
 					<form id="contact-form" action="php/mailer.php" method="post" novalidate>
+
 						<div class="form-group">
-							<label for="name">Name <span class="text-danger">*</span></label>
+							<label for="name">Name</label>
 							<div class="input-group">
 								<div class="input-group-addon">
+									<i class="fa fa-user"></i>
 								</div>
-								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								<input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="email">Email <span class="text-danger">*</span></label>
+							<label for="email">Email</label>
 							<div class="input-group">
 								<div class="input-group-addon">
+									<i class="fa fa-envelope"></i>
 								</div>
-								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								<input type="email" class="form-control" id="email"  name="email" placeholder="Email">
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="subject">Subject</label>
 							<div class="input-group">
 								<div class="input-group-addon">
-									<i class="fa fa-pencil" aria-hidden="true"></i>
+									<i class="fa fa-pencil"></i>
 								</div>
-								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+								<input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
 							</div>
 						</div>
 						<div class="form-group">
-							<label for="message">Message <span class="text-danger">*</span></label>
+							<label for="message">Message</label>
 							<div class="input-group">
 								<div class="input-group-addon">
-									<i class="fa fa-comment" aria-hidden="true"></i>
+									<i class="fa fa-comment"></i>
 								</div>
-								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
+								<textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
 							</div>
 						</div>
+
 <!-- reCAPTCHA for Marcelo's live site-->
 <!--<div class="g-recaptcha" data-sitekey="6LdmsykTAAAAADzZnm_QTYypp2Wk4-f2cwjxR8c4"></div>
 
