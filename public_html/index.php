@@ -93,6 +93,9 @@
 								<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 							</div>
 						</div>
+<!-- reCAPTCHA for Marcelo's live site-->
+<!--<div class="g-recaptcha" data-sitekey="6LdmsykTAAAAADzZnm_QTYypp2Wk4-f2cwjxR8c4"></div>
+
 
 
 <!-- reCAPTCHA for bootcapm-coders-->
