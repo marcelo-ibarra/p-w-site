@@ -58,7 +58,7 @@
 				<img class="picture-image" src="images/picture_241pbw.JPG" align="right">
 				<!--Begin Contact Form-->
 				<div class="col-md-5"</div>
-					<script> id="contact-form" action="php/mailer.php" method="post"</script>
+					<form id="contact-form" action="php/mailer.php" method="post" novalidate>
 						<div class="form-group">
 							<label for="name">Name <span class="text-danger">*</span></label>
 							<div class="input-group">
@@ -104,6 +104,14 @@
 						<script src='https://www.google.com/recaptcha'/api.js></script>
 						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+							</div><!--empty area for form error/success output-->
+								</form>
+
+							<!--empty area for form error/success output-->
+							<div class="row">
+							<div class="col-xs-12">
+							<div id="output-area"></div>
+							</div>
 							</div>
 
 				<!--empty area for form error/success output-->
