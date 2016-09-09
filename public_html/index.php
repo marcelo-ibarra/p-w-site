@@ -40,7 +40,7 @@
 								future web developer who likes challenge and enjoys learning new things. At the same time; I'd
 								like to get acquainted to potential employers and colleagues.</p>
 
-							<p>Got introduced to these new languages: HTML5, JavaScript, PHP, CSS, MySQL and Angular. Attending Bootcapm coders was quite a ride. NEVER give uuuup!</p>
+							<p>Got introduced to these new languages: HTML5, JavaScript, PHP, CSS, MySQL and Angular. Attending Bootcapm coders was quite a ride. Main lesson learned - NEVER to give uuuup!</p>
 					</i>
 				</div>
 			</div>
