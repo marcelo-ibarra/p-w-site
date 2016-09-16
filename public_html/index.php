@@ -57,7 +57,7 @@
 		</div>
 
 		<div class="container">
-			<div class="row">
+			<div class="row" align="center">
 				<div class="col-md-6 col-md-offset-3">
 					<h2>Contact Me</h2>
 					<form id="contact-form" action="php/mailer.php" method="post" novalidate>
@@ -118,7 +118,7 @@
 
 		<!--empty area for form error/success output-->
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-14">
 				<div id="output-area"></div>
 			</div>
 		</div>
